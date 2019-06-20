@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <IdeaForm
+    idea={
+      Object {
+        "date": 111,
+        "description": "description",
+        "id": "1",
+        "new": true,
+        "title": "title",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          className="label"
+        >
+          Title:
+          <input
+            className="input"
+            name="title"
+            onChange={[Function]}
+            placeholder="title"
+            value="title"
+          />
+        </label>,
+        <label
+          className="label"
+        >
+          Description: 
+          <br />
+          <textarea
+            className="textArea"
+            cols={20}
+            maxLength={140}
+            name="description"
+            onChange={[Function]}
+            placeholder="description"
+            rows={5}
+            value="description"
+          />
+        </label>,
+        <button
+          className="button"
+          type="submit"
+        >
+          Save
+        </button>,
+      ],
+      "className": "wrapper",
+      "onSubmit": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Title:",
+            <input
+              className="input"
+              name="title"
+              onChange={[Function]}
+              placeholder="title"
+              value="title"
+            />,
+          ],
+          "className": "label",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Title:",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input",
+              "name": "title",
+              "onChange": [Function],
+              "placeholder": "title",
+              "value": "title",
+            },
+            "ref": Object {
+              "current": null,
+            },
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Description: ",
+            <br />,
+            <textarea
+              className="textArea"
+              cols={20}
+              maxLength={140}
+              name="description"
+              onChange={[Function]}
+              placeholder="description"
+              rows={5}
+              value="description"
+            />,
+          ],
+          "className": "label",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Description: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "textArea",
+              "cols": 20,
+              "maxLength": 140,
+              "name": "description",
+              "onChange": [Function],
+              "placeholder": "description",
+              "rows": 5,
+              "value": "description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Save",
+          "className": "button",
+          "type": "submit",
+        },
+        "ref": null,
+        "rendered": "Save",
+        "type": "button",
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            className="label"
+          >
+            Title:
+            <input
+              className="input"
+              name="title"
+              onChange={[Function]}
+              placeholder="title"
+              value="title"
+            />
+          </label>,
+          <label
+            className="label"
+          >
+            Description: 
+            <br />
+            <textarea
+              className="textArea"
+              cols={20}
+              maxLength={140}
+              name="description"
+              onChange={[Function]}
+              placeholder="description"
+              rows={5}
+              value="description"
+            />
+          </label>,
+          <button
+            className="button"
+            type="submit"
+          >
+            Save
+          </button>,
+        ],
+        "className": "wrapper",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Title:",
+              <input
+                className="input"
+                name="title"
+                onChange={[Function]}
+                placeholder="title"
+                value="title"
+              />,
+            ],
+            "className": "label",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Title:",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input",
+                "name": "title",
+                "onChange": [Function],
+                "placeholder": "title",
+                "value": "title",
+              },
+              "ref": Object {
+                "current": null,
+              },
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Description: ",
+              <br />,
+              <textarea
+                className="textArea"
+                cols={20}
+                maxLength={140}
+                name="description"
+                onChange={[Function]}
+                placeholder="description"
+                rows={5}
+                value="description"
+              />,
+            ],
+            "className": "label",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Description: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "textArea",
+                "cols": 20,
+                "maxLength": 140,
+                "name": "description",
+                "onChange": [Function],
+                "placeholder": "description",
+                "rows": 5,
+                "value": "description",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Save",
+            "className": "button",
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "Save",
+          "type": "button",
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

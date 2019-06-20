@@ -1,0 +1,28 @@
+.wrapper {
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  max-width: 200px;
+}
+
+.edit {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  background-color: #868e9d;
+}
+
+.delete {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  background-color: red;
+}
