@@ -1,13 +1,13 @@
 {
-  "main.css": "/ideas-board/static/css/main.50d98e01.chunk.css",
-  "main.js": "/ideas-board/static/js/main.cfa45fe9.chunk.js",
-  "main.js.map": "/ideas-board/static/js/main.cfa45fe9.chunk.js.map",
+  "main.css": "/ideas-board/static/css/main.25f25534.chunk.css",
+  "main.js": "/ideas-board/static/js/main.66ec2fb7.chunk.js",
+  "main.js.map": "/ideas-board/static/js/main.66ec2fb7.chunk.js.map",
   "runtime~main.js": "/ideas-board/static/js/runtime~main.3b0d2449.js",
   "runtime~main.js.map": "/ideas-board/static/js/runtime~main.3b0d2449.js.map",
-  "static/js/2.c703f512.chunk.js": "/ideas-board/static/js/2.c703f512.chunk.js",
-  "static/js/2.c703f512.chunk.js.map": "/ideas-board/static/js/2.c703f512.chunk.js.map",
+  "static/js/2.e84ece0d.chunk.js": "/ideas-board/static/js/2.e84ece0d.chunk.js",
+  "static/js/2.e84ece0d.chunk.js.map": "/ideas-board/static/js/2.e84ece0d.chunk.js.map",
   "index.html": "/ideas-board/index.html",
-  "precache-manifest.e0f4e85f1c8c63380a73080944446bd7.js": "/ideas-board/precache-manifest.e0f4e85f1c8c63380a73080944446bd7.js",
+  "precache-manifest.2709084b973888dc2d15838b3616367b.js": "/ideas-board/precache-manifest.2709084b973888dc2d15838b3616367b.js",
   "service-worker.js": "/ideas-board/service-worker.js",
-  "static/css/main.50d98e01.chunk.css.map": "/ideas-board/static/css/main.50d98e01.chunk.css.map"
+  "static/css/main.25f25534.chunk.css.map": "/ideas-board/static/css/main.25f25534.chunk.css.map"
 }
