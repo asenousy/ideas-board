@@ -20,7 +20,7 @@ made sure no props are declared inline otherwise it would cancel efforts in prev
 
 # Security
 
-sanitised user inputs for xss, even though react already does that when rendering, i thought in future case scenario maybe the list stored could be passed somewhere accessed, but also to demonstrate that i am security aware :)
+sanitised user inputs for xss, even though in this scenario it is not required as React already does it when rendering, but I thought in future case scenario maybe the list stored could be passed somewhere else, but also to demonstrate that i am security aware :)
 
 # Accessibility
 
