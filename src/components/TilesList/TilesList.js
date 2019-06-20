@@ -39,7 +39,7 @@ TilesList.propTypes = {
       new: PropTypes.bool.isRequired
     })
   ).isRequired,
-  sortBy: PropTypes.oneOf([sortEnum.date, sortEnum.alphabetical]).isRequired
+  sortBy: PropTypes.oneOf([sortEnum.date, sortEnum.alphabet]).isRequired
 };
 
 export default connect(state => ({

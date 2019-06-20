@@ -13,7 +13,7 @@ export const AddTile = props => {
       role="button"
       aria-label="new"
     >
-      <FontAwesomeIcon className={styles.add} icon={faPlusCircle} size="lg" />
+      <FontAwesomeIcon className={styles.add} icon={faPlusCircle} size="2x" />
     </div>
   );
 };

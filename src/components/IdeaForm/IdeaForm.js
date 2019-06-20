@@ -4,7 +4,7 @@ import styles from "./IdeaForm.module.css";
 import configs from "../../configs";
 
 const textAreaRows = 5;
-const textAreaCols = 20;
+const textAreaCols = 19;
 
 class IdeaForm extends PureComponent {
   constructor(props) {
@@ -33,7 +33,7 @@ class IdeaForm extends PureComponent {
           Title:
           <input
             className={styles.input}
-            placeholder="title"
+            placeholder=" add title"
             name="title"
             value={title}
             onChange={this.changeHandler}
@@ -44,7 +44,7 @@ class IdeaForm extends PureComponent {
           Description: <br />
           <textarea
             className={styles.textArea}
-            placeholder="description"
+            placeholder=" add description"
             name="description"
             rows={textAreaRows}
             cols={textAreaCols}

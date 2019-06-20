@@ -9,8 +9,8 @@ export const Idea = props => {
 
   return (
     <div className={styles.wrapper}>
-      <h3>{title || titlePlaceHolder}</h3>
-      <p>{description}</p>
+      <h3 className={styles.text}>{title || titlePlaceHolder}</h3>
+      <p className={styles.text}>{description}</p>
       <div className={styles.date}>
         {new Date(date)
           .toTimeString()

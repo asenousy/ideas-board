@@ -11,7 +11,7 @@ export class Header extends PureComponent {
 
     return (
       <div className={styles.wrapper}>
-        <h1 className={styles.label}>Ideas Board:</h1>
+        <h1 className={styles.title}>Ideas Board:</h1>
         <label className={styles.label}>
           Sort by:
           <select
@@ -20,9 +20,7 @@ export class Header extends PureComponent {
             onChange={this.handleChange}
           >
             <option value={sortEnum.date}>{sortEnum.date}</option>
-            <option value={sortEnum.alphabetical}>
-              {sortEnum.alphabetical}
-            </option>
+            <option value={sortEnum.alphabet}>{sortEnum.alphabet}</option>
           </select>
         </label>
       </div>
@@ -35,7 +33,7 @@ export class Header extends PureComponent {
 }
 
 Header.propTypes = {
-  sortBy: PropTypes.oneOf([sortEnum.date, sortEnum.alphabetical]).isRequired,
+  sortBy: PropTypes.oneOf([sortEnum.date, sortEnum.alphabet]).isRequired,
   setSortBy: PropTypes.func
 };
 

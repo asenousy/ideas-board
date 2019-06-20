@@ -8,20 +8,23 @@
 
 .label {
   margin: 10px;
-  text-align: center;
 }
 
 .input {
   margin: 5px;
   border-radius: 5px;
   height: 20px;
-  border: solid 1px purple;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 0 8px 2px lightgrey;
 }
 
 .textArea {
   margin: 5px;
-  border-radius: 10px;
-  border: solid 1px purple;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 0 8px 2px lightgrey;
 }
 
 .button {

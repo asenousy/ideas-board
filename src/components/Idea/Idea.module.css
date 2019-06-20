@@ -6,8 +6,13 @@
 
 .date {
   position: absolute;
-  margin: 5px;
+  margin: 5px 8px;
   bottom: 0;
   left: 0;
-  font-size: 12px;
+  font-size: 13px;
+  color: purple;
+}
+
+.text {
+  overflow-wrap: break-word;
 }

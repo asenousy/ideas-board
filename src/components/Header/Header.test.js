@@ -7,7 +7,7 @@ it("renders without crashing", () => {
   const wrapper = shallow(<Header sortBy={sortEnum.date} />);
   expect(wrapper).toMatchSnapshot();
 
-  wrapper.setProps({ sortBy: sortEnum.alphabetical });
+  wrapper.setProps({ sortBy: sortEnum.alphabet });
   expect(wrapper).toMatchSnapshot();
 });
 

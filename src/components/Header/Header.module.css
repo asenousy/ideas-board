@@ -12,9 +12,14 @@
 
 .label {
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .select {
   margin: 0 10px;
+  font-size: 15px;
+}
+
+.title {
+  margin: 10px;
 }

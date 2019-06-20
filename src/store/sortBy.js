@@ -1,6 +1,6 @@
 import { createSlice } from "redux-starter-kit";
 
-export const sortEnum = { date: "date", alphabetical: "alphabetical" };
+export const sortEnum = { date: "Date", alphabet: "Alphabet" };
 
 const sortBy = createSlice({
   initialState: sortEnum.date,
