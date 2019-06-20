@@ -2,11 +2,13 @@
   "name": "clearscore-fed-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://asenousy.github.io/ideas-board",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "dompurify": "^1.0.11",
+    "gh-pages": "^2.0.1",
     "lodash.throttle": "^4.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.4.0",
@@ -17,6 +19,8 @@
     "redux-starter-kit": "^0.5.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
