@@ -4,7 +4,7 @@ exports[`renders without crashing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Header
-    sortBy="date"
+    sortBy="Date"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -22,7 +22,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h1
-          className="label"
+          className="title"
         >
           Ideas Board:
         </h1>,
@@ -33,17 +33,17 @@ ShallowWrapper {
           <select
             className="select"
             onChange={[Function]}
-            value="date"
+            value="Date"
           >
             <option
-              value="date"
+              value="Date"
             >
-              date
+              Date
             </option>
             <option
-              value="alphabetical"
+              value="Alphabet"
             >
-              alphabetical
+              Alphabet
             </option>
           </select>
         </label>,
@@ -58,7 +58,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Ideas Board:",
-          "className": "label",
+          "className": "title",
         },
         "ref": null,
         "rendered": "Ideas Board:",
@@ -74,17 +74,17 @@ ShallowWrapper {
             <select
               className="select"
               onChange={[Function]}
-              value="date"
+              value="Date"
             >
               <option
-                value="date"
+                value="Date"
               >
-                date
+                Date
               </option>
               <option
-                value="alphabetical"
+                value="Alphabet"
               >
-                alphabetical
+                Alphabet
               </option>
             </select>,
           ],
@@ -100,19 +100,19 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <option
-                  value="date"
+                  value="Date"
                 >
-                  date
+                  Date
                 </option>,
                 <option
-                  value="alphabetical"
+                  value="Alphabet"
                 >
-                  alphabetical
+                  Alphabet
                 </option>,
               ],
               "className": "select",
               "onChange": [Function],
-              "value": "date",
+              "value": "Date",
             },
             "ref": null,
             "rendered": Array [
@@ -121,11 +121,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "date",
-                  "value": "date",
+                  "children": "Date",
+                  "value": "Date",
                 },
                 "ref": null,
-                "rendered": "date",
+                "rendered": "Date",
                 "type": "option",
               },
               Object {
@@ -133,11 +133,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "alphabetical",
-                  "value": "alphabetical",
+                  "children": "Alphabet",
+                  "value": "Alphabet",
                 },
                 "ref": null,
-                "rendered": "alphabetical",
+                "rendered": "Alphabet",
                 "type": "option",
               },
             ],
@@ -157,7 +157,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1
-            className="label"
+            className="title"
           >
             Ideas Board:
           </h1>,
@@ -168,17 +168,17 @@ ShallowWrapper {
             <select
               className="select"
               onChange={[Function]}
-              value="date"
+              value="Date"
             >
               <option
-                value="date"
+                value="Date"
               >
-                date
+                Date
               </option>
               <option
-                value="alphabetical"
+                value="Alphabet"
               >
-                alphabetical
+                Alphabet
               </option>
             </select>
           </label>,
@@ -193,7 +193,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Ideas Board:",
-            "className": "label",
+            "className": "title",
           },
           "ref": null,
           "rendered": "Ideas Board:",
@@ -209,17 +209,17 @@ ShallowWrapper {
               <select
                 className="select"
                 onChange={[Function]}
-                value="date"
+                value="Date"
               >
                 <option
-                  value="date"
+                  value="Date"
                 >
-                  date
+                  Date
                 </option>
                 <option
-                  value="alphabetical"
+                  value="Alphabet"
                 >
-                  alphabetical
+                  Alphabet
                 </option>
               </select>,
             ],
@@ -235,19 +235,19 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <option
-                    value="date"
+                    value="Date"
                   >
-                    date
+                    Date
                   </option>,
                   <option
-                    value="alphabetical"
+                    value="Alphabet"
                   >
-                    alphabetical
+                    Alphabet
                   </option>,
                 ],
                 "className": "select",
                 "onChange": [Function],
-                "value": "date",
+                "value": "Date",
               },
               "ref": null,
               "rendered": Array [
@@ -256,11 +256,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "date",
-                    "value": "date",
+                    "children": "Date",
+                    "value": "Date",
                   },
                   "ref": null,
-                  "rendered": "date",
+                  "rendered": "Date",
                   "type": "option",
                 },
                 Object {
@@ -268,11 +268,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "alphabetical",
-                    "value": "alphabetical",
+                    "children": "Alphabet",
+                    "value": "Alphabet",
                   },
                   "ref": null,
-                  "rendered": "alphabetical",
+                  "rendered": "Alphabet",
                   "type": "option",
                 },
               ],
@@ -319,7 +319,7 @@ exports[`renders without crashing 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Header
-    sortBy="alphabetical"
+    sortBy="Alphabet"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -337,7 +337,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h1
-          className="label"
+          className="title"
         >
           Ideas Board:
         </h1>,
@@ -348,17 +348,17 @@ ShallowWrapper {
           <select
             className="select"
             onChange={[Function]}
-            value="alphabetical"
+            value="Alphabet"
           >
             <option
-              value="date"
+              value="Date"
             >
-              date
+              Date
             </option>
             <option
-              value="alphabetical"
+              value="Alphabet"
             >
-              alphabetical
+              Alphabet
             </option>
           </select>
         </label>,
@@ -373,7 +373,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Ideas Board:",
-          "className": "label",
+          "className": "title",
         },
         "ref": null,
         "rendered": "Ideas Board:",
@@ -389,17 +389,17 @@ ShallowWrapper {
             <select
               className="select"
               onChange={[Function]}
-              value="alphabetical"
+              value="Alphabet"
             >
               <option
-                value="date"
+                value="Date"
               >
-                date
+                Date
               </option>
               <option
-                value="alphabetical"
+                value="Alphabet"
               >
-                alphabetical
+                Alphabet
               </option>
             </select>,
           ],
@@ -415,19 +415,19 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <option
-                  value="date"
+                  value="Date"
                 >
-                  date
+                  Date
                 </option>,
                 <option
-                  value="alphabetical"
+                  value="Alphabet"
                 >
-                  alphabetical
+                  Alphabet
                 </option>,
               ],
               "className": "select",
               "onChange": [Function],
-              "value": "alphabetical",
+              "value": "Alphabet",
             },
             "ref": null,
             "rendered": Array [
@@ -436,11 +436,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "date",
-                  "value": "date",
+                  "children": "Date",
+                  "value": "Date",
                 },
                 "ref": null,
-                "rendered": "date",
+                "rendered": "Date",
                 "type": "option",
               },
               Object {
@@ -448,11 +448,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "alphabetical",
-                  "value": "alphabetical",
+                  "children": "Alphabet",
+                  "value": "Alphabet",
                 },
                 "ref": null,
-                "rendered": "alphabetical",
+                "rendered": "Alphabet",
                 "type": "option",
               },
             ],
@@ -472,7 +472,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1
-            className="label"
+            className="title"
           >
             Ideas Board:
           </h1>,
@@ -483,17 +483,17 @@ ShallowWrapper {
             <select
               className="select"
               onChange={[Function]}
-              value="alphabetical"
+              value="Alphabet"
             >
               <option
-                value="date"
+                value="Date"
               >
-                date
+                Date
               </option>
               <option
-                value="alphabetical"
+                value="Alphabet"
               >
-                alphabetical
+                Alphabet
               </option>
             </select>
           </label>,
@@ -508,7 +508,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Ideas Board:",
-            "className": "label",
+            "className": "title",
           },
           "ref": null,
           "rendered": "Ideas Board:",
@@ -524,17 +524,17 @@ ShallowWrapper {
               <select
                 className="select"
                 onChange={[Function]}
-                value="alphabetical"
+                value="Alphabet"
               >
                 <option
-                  value="date"
+                  value="Date"
                 >
-                  date
+                  Date
                 </option>
                 <option
-                  value="alphabetical"
+                  value="Alphabet"
                 >
-                  alphabetical
+                  Alphabet
                 </option>
               </select>,
             ],
@@ -550,19 +550,19 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <option
-                    value="date"
+                    value="Date"
                   >
-                    date
+                    Date
                   </option>,
                   <option
-                    value="alphabetical"
+                    value="Alphabet"
                   >
-                    alphabetical
+                    Alphabet
                   </option>,
                 ],
                 "className": "select",
                 "onChange": [Function],
-                "value": "alphabetical",
+                "value": "Alphabet",
               },
               "ref": null,
               "rendered": Array [
@@ -571,11 +571,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "date",
-                    "value": "date",
+                    "children": "Date",
+                    "value": "Date",
                   },
                   "ref": null,
-                  "rendered": "date",
+                  "rendered": "Date",
                   "type": "option",
                 },
                 Object {
@@ -583,11 +583,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "alphabetical",
-                    "value": "alphabetical",
+                    "children": "Alphabet",
+                    "value": "Alphabet",
                   },
                   "ref": null,
-                  "rendered": "alphabetical",
+                  "rendered": "Alphabet",
                   "type": "option",
                 },
               ],

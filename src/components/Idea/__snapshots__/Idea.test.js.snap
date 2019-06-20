@@ -23,10 +23,14 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
+        <h3
+          className="text"
+        >
           title
         </h3>,
-        <p />,
+        <p
+          className="text"
+        />,
         <div
           className="date"
         >
@@ -43,6 +47,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "title",
+          "className": "text",
         },
         "ref": null,
         "rendered": "title",
@@ -54,6 +59,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": undefined,
+          "className": "text",
         },
         "ref": null,
         "rendered": null,
@@ -81,10 +87,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
+          <h3
+            className="text"
+          >
             title
           </h3>,
-          <p />,
+          <p
+            className="text"
+          />,
           <div
             className="date"
           >
@@ -101,6 +111,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "title",
+            "className": "text",
           },
           "ref": null,
           "rendered": "title",
@@ -112,6 +123,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
+            "className": "text",
           },
           "ref": null,
           "rendered": null,

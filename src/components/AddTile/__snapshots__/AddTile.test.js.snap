@@ -43,7 +43,7 @@ ShallowWrapper {
         pull={null}
         pulse={false}
         rotation={null}
-        size="lg"
+        size="2x"
         spin={false}
         symbol={false}
         title=""
@@ -81,7 +81,7 @@ ShallowWrapper {
         "pull": null,
         "pulse": false,
         "rotation": null,
-        "size": "lg",
+        "size": "2x",
         "spin": false,
         "symbol": false,
         "title": "",
@@ -124,7 +124,7 @@ ShallowWrapper {
           pull={null}
           pulse={false}
           rotation={null}
-          size="lg"
+          size="2x"
           spin={false}
           symbol={false}
           title=""
@@ -162,7 +162,7 @@ ShallowWrapper {
           "pull": null,
           "pulse": false,
           "rotation": null,
-          "size": "lg",
+          "size": "2x",
           "spin": false,
           "symbol": false,
           "title": "",

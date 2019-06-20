@@ -37,7 +37,7 @@ ShallowWrapper {
             className="input"
             name="title"
             onChange={[Function]}
-            placeholder="title"
+            placeholder=" add title"
             value="title"
           />
         </label>,
@@ -48,11 +48,11 @@ ShallowWrapper {
           <br />
           <textarea
             className="textArea"
-            cols={20}
+            cols={19}
             maxLength={140}
             name="description"
             onChange={[Function]}
-            placeholder="description"
+            placeholder=" add description"
             rows={5}
             value="description"
           />
@@ -80,7 +80,7 @@ ShallowWrapper {
               className="input"
               name="title"
               onChange={[Function]}
-              placeholder="title"
+              placeholder=" add title"
               value="title"
             />,
           ],
@@ -97,7 +97,7 @@ ShallowWrapper {
               "className": "input",
               "name": "title",
               "onChange": [Function],
-              "placeholder": "title",
+              "placeholder": " add title",
               "value": "title",
             },
             "ref": Object {
@@ -119,11 +119,11 @@ ShallowWrapper {
             <br />,
             <textarea
               className="textArea"
-              cols={20}
+              cols={19}
               maxLength={140}
               name="description"
               onChange={[Function]}
-              placeholder="description"
+              placeholder=" add description"
               rows={5}
               value="description"
             />,
@@ -148,11 +148,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "className": "textArea",
-              "cols": 20,
+              "cols": 19,
               "maxLength": 140,
               "name": "description",
               "onChange": [Function],
-              "placeholder": "description",
+              "placeholder": " add description",
               "rows": 5,
               "value": "description",
             },
@@ -194,7 +194,7 @@ ShallowWrapper {
               className="input"
               name="title"
               onChange={[Function]}
-              placeholder="title"
+              placeholder=" add title"
               value="title"
             />
           </label>,
@@ -205,11 +205,11 @@ ShallowWrapper {
             <br />
             <textarea
               className="textArea"
-              cols={20}
+              cols={19}
               maxLength={140}
               name="description"
               onChange={[Function]}
-              placeholder="description"
+              placeholder=" add description"
               rows={5}
               value="description"
             />
@@ -237,7 +237,7 @@ ShallowWrapper {
                 className="input"
                 name="title"
                 onChange={[Function]}
-                placeholder="title"
+                placeholder=" add title"
                 value="title"
               />,
             ],
@@ -254,7 +254,7 @@ ShallowWrapper {
                 "className": "input",
                 "name": "title",
                 "onChange": [Function],
-                "placeholder": "title",
+                "placeholder": " add title",
                 "value": "title",
               },
               "ref": Object {
@@ -276,11 +276,11 @@ ShallowWrapper {
               <br />,
               <textarea
                 className="textArea"
-                cols={20}
+                cols={19}
                 maxLength={140}
                 name="description"
                 onChange={[Function]}
-                placeholder="description"
+                placeholder=" add description"
                 rows={5}
                 value="description"
               />,
@@ -305,11 +305,11 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "className": "textArea",
-                "cols": 20,
+                "cols": 19,
                 "maxLength": 140,
                 "name": "description",
                 "onChange": [Function],
-                "placeholder": "description",
+                "placeholder": " add description",
                 "rows": 5,
                 "value": "description",
               },
