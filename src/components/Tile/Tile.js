@@ -13,6 +13,9 @@ export class Tile extends PureComponent {
   constructor(props) {
     super(props);
     this.state = { editMode: props.idea.new };
+    // taking advantage of currying instead of declaring function twice
+    this.handleEditKey = this.handleKey.bind(this, this.toggleEditMode);
+    this.handleDeleteKey = this.handleKey.bind(this, this.deleteHandler);
   }
 
   render() {
@@ -34,6 +37,7 @@ export class Tile extends PureComponent {
             icon={faEdit}
             size="lg"
             onClick={this.toggleEditMode}
+            onKeyUp={this.handleEditKey}
             tabIndex="0"
             role="button"
             aria-label="edit"
@@ -44,6 +48,7 @@ export class Tile extends PureComponent {
           icon={faTrash}
           size="lg"
           onClick={this.deleteHandler}
+          onKeyUp={this.handleDeleteKey}
           tabIndex="0"
           role="button"
           aria-label="delete"
@@ -51,6 +56,11 @@ export class Tile extends PureComponent {
       </div>
     );
   }
+
+  handleKey = (cb, e) => {
+    if (e.key !== "Enter") return;
+    cb();
+  };
 
   toggleEditMode = () => {
     this.setState(state => ({ editMode: !state.editMode }));
