@@ -51,8 +51,6 @@ ShallowWrapper {
       />,
       "className": "wrapper",
       "onClick": undefined,
-      "role": "button",
-      "tabIndex": "0",
     },
     "ref": null,
     "rendered": Object {
@@ -91,7 +89,7 @@ ShallowWrapper {
       "rendered": null,
       "type": [Function],
     },
-    "type": "div",
+    "type": "button",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -132,8 +130,6 @@ ShallowWrapper {
         />,
         "className": "wrapper",
         "onClick": undefined,
-        "role": "button",
-        "tabIndex": "0",
       },
       "ref": null,
       "rendered": Object {
@@ -172,7 +168,7 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      "type": "div",
+      "type": "button",
     },
   ],
   Symbol(enzyme.__options__): Object {
