@@ -6,15 +6,9 @@ import { faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 
 export const AddTile = props => {
   return (
-    <div
-      className={styles.wrapper}
-      onClick={props.onClick}
-      tabIndex="0"
-      role="button"
-      aria-label="new"
-    >
+    <button className={styles.wrapper} onClick={props.onClick} aria-label="new">
       <FontAwesomeIcon className={styles.add} icon={faPlusCircle} size="2x" />
-    </div>
+    </button>
   );
 };
 
