@@ -1,6 +1,6 @@
 # Run App
 
-visit link to checkout the app.
+Visit this [link](https://asenousy.github.io/ideas-board) to see it in action
 or git clone this repo and run the following:
 
 ```
