@@ -9,7 +9,7 @@ jest
   .spyOn(IdeaForm.prototype, "focusOnTarget")
   .mockImplementation(focusOnTargetSpy);
 
-jest.spyOn(Date, "now").mockImplementation(() => 111);
+jest.spyOn(Date, "now").mockImplementation(() => 222);
 
 let wrapper;
 beforeEach(
@@ -48,7 +48,7 @@ it("submits new idea updated idea", () => {
     id: "1",
     title: "updatedTitle",
     description: "description",
-    date: 111,
+    date: 222,
     new: true
   });
 });
