@@ -4,16 +4,7 @@ import { sanitize } from "dompurify";
 const todoSlice = createSlice({
   initialState: [],
   reducers: {
-    addIdea: state => [
-      ...state,
-      {
-        id: Math.random().toString(),
-        title: "",
-        description: "",
-        date: Date.now(),
-        new: true
-      }
-    ],
+    addIdea: (state, { payload }) => [...state, payload],
     updateIdea: (state, { payload }) =>
       state.map(idea =>
         idea.id === payload.id
@@ -24,7 +15,7 @@ const todoSlice = createSlice({
               //but in case this data will be passed somewhere in future
               title: sanitize(payload.title),
               description: sanitize(payload.description),
-              date: Date.now(),
+              date: payload.date,
               new: false
             }
           : idea

@@ -9,6 +9,8 @@ jest
   .spyOn(IdeaForm.prototype, "focusOnTarget")
   .mockImplementation(focusOnTargetSpy);
 
+jest.spyOn(Date, "now").mockImplementation(() => 111);
+
 let wrapper;
 beforeEach(
   () =>

@@ -21,7 +21,13 @@ export class App extends Component {
   }
 
   addhandler = () => {
-    this.props.addIdea();
+    this.props.addIdea({
+      id: Math.random().toString(),
+      title: "",
+      description: "",
+      date: Date.now(),
+      new: true
+    });
   };
 }
 
